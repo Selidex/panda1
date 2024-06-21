@@ -1,0 +1,85 @@
+body {
+    background: #bed199;
+}
+div {
+position: absolute;
+background-color: white;
+}
+
+#face {
+width: 600px;
+height: 530px;
+border-radius: 50% 50% 40% 40%; 
+left: 100px;
+top: 150px;
+}
+
+.eye {
+width: 100px;
+height: 100px;
+background-color: black;
+border-radius: 50%;
+}
+
+.eye-left {
+left: 120px;
+top: 120px;
+}
+
+.eye-right {
+right: 120px;
+top: 120px;
+}
+
+.ear {
+width: 230px;
+height: 200px;
+z-index: -1;
+border-radius: 50%;
+background:black;
+}
+
+.ear-right {
+right: 40px;
+top: -50px;
+}
+
+.ear-left {
+left: 40px;
+top: -50px;
+}
+
+.inner-ear {
+background-color: hsl(33, 64%, 60%);
+width: 160px;
+height: 130px;
+border-radius: 50%;
+left: 35px;
+top: 20px;
+}
+
+.snout {
+background-color:#efefef;
+width: 300px;
+height: 220px;
+bottom: 50px;
+left: 150px;
+border-radius: 48%;
+}
+
+.nose {
+width: 150px;
+height: 100px;
+background-color: black;
+border-radius: 20% 20% 50% 50%;
+left: 75px;
+}
+
+.glint {
+width: 40%;
+height: 20%;
+border-radius: 50%;
+background-color: white;
+right: 20px;
+top: 10px;
+}
